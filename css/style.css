@@ -1,0 +1,31 @@
+
+
+.box-set {
+    position: relative;
+    height: 400px;
+    background: darkgray;
+  }
+  
+  .box {
+    /* relative positioning */
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #2db34a;
+    border: 2px solid black;
+  }
+
+.header {
+    float: right;
+    
+}
+
+
+.btn {
+    float: left;
+    height: 75px;
+    width: 170px;
+    background: green;
+    color: white;
+    font-size: 20px;
+}
