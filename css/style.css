@@ -13,6 +13,10 @@ header {
   border-bottom: 1px solid #cccccc;
 }
 
+#tedla {
+  float: left;
+}
+
 h1 {
   background: #4aaaa5;
   color: white;
@@ -24,12 +28,13 @@ h1 {
 
 button {
   float: right;
-  margin-right: 10px;
-  
+  margin-bottom: 10px;
+  padding: 10px;
   border: 0;
   background: white;
 
 }
+
 
 
 h2 {
@@ -43,7 +48,13 @@ img {
   height: 200px;
 }
 
+img,
+p {
+  float: left;
+}
+
 footer {
+  clear: both;
   background: #666666;
   border: 1px solid #dddddd;
   height: 40px;
