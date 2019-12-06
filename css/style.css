@@ -3,16 +3,19 @@
 
 body {
   font-family: 'Arial', Helvetica, sans-serif;
+  width: 960px;
+  margin: 0px 88px 0px 88px;
 }
 
 header {
   padding: 20px;
   font-family: 'Georgia', 'Times New Roman', Times, serif;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #cccccc;
 }
 
 h1 {
   background: #4aaaa5;
+  color: white;
   width: 150px;
   padding: 20px;
   margin-bottom: -30px;5
@@ -21,11 +24,30 @@ h1 {
 
 button {
   float: right;
-  margin-right: 0px 20px 20px 0px;
+  margin-right: 10px;
+  
   border: 0;
   background: white;
+
 }
+
+
+h2 {
+  border-bottom: 1px solid #dddddd;
+  padding: 20px;
+  color: #4aaaa5;
+}
+
 img {
   width: 200px;
   height: 200px;
+}
+
+footer {
+  background: #666666;
+  border: 1px solid #dddddd;
+  height: 40px;
+  text-align: center;
+
+
 }
