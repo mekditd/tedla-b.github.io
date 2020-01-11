@@ -26,17 +26,50 @@ html {
   display: flex;
   height: 100%;
   max-width: 1200px;
-  // -webkit-box-align: center;
-  // align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
   padding: 20px;
   margin: auto;
   background-color: rgb(213, 216, 218);
-  border: 1px color($color: faint) solid;
+  border: 1px rgb(118, 118, 155) solid;
   justify-content: space-between;
 
-  .logo {
-    margin: 5px 0 0 5px;
+  
+}
+.logo {
+  margin: 5px 0 0 5px;
+ 
+
+
+  img {
+    width:15rem;
+    display: flex;
+    border-radius: 20px;
+    border: 1px rgb(118, 118, 155) solid;
+    width:50%;
   }
+}
+
+.members, .question {
+  float: right;
+  margin: 10px 0px 0px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(118, 118, 155);
+  padding: 8px;
+
+}
+
+.receiver {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  height: 100%;
+  // max-width: 1200px;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  justify-content: center;
 }
 
 body {
