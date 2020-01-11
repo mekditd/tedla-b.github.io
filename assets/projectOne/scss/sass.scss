@@ -4,6 +4,17 @@ $colors: (
   faint: rgb(97, 97, 122)
 );
 
+$common: (
+  position: relative,
+  box-sizing: border-box,
+  display: flex,
+
+
+
+);
+
+$desktop: 960px;
+
 @function color($color-name) {
   @return map-get($colors, $color-name);
 }
@@ -20,6 +31,9 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  font-size: 15px;
+}
 .header {
   box-sizing: border-box;
   position: relative;
@@ -30,9 +44,10 @@ html {
   align-items: center;
   padding: 20px;
   margin: auto;
-  background-color: rgb(213, 216, 218);
+  background-color: rgb(204, 139, 95);
   border: 1px rgb(118, 118, 155) solid;
   justify-content: space-between;
+  color: white;
 
   
 }
@@ -53,9 +68,9 @@ html {
 .members, .question {
   float: right;
   margin: 10px 0px 0px 10px;
-  border-radius: 10px;
-  border: 1px solid rgb(118, 118, 155);
-  padding: 8px;
+  border-radius: 20px;
+  // border: 1px solid rgb(118, 118, 155);
+  padding: 6px;
 
 }
 
@@ -67,9 +82,15 @@ html {
   // max-width: 1200px;
   -webkit-box-align: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   margin: auto;
   justify-content: center;
+  border: 1px solid rgb(118, 118, 155);
+  
+}
+
+span {
+  color: white;
 }
 
 body {
